@@ -134,4 +134,7 @@ class ReadFiles:
         triples = pd.DataFrame(data=[], columns=['subject', 'predicate', 'object', 'truth'])
         inputData = pd.read_csv(path, index_col=0)
         return inputData
+
+    def getTsv(self, path):
+        return pd.read_csv(path, sep='\t')
         

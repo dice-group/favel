@@ -25,7 +25,7 @@ def main():
                                 automl=automl
                                 )
         controller.input()
-        controller.validate()
+        # controller.validate() This gets the values from database file, skip this and just read our file
         controller.ensemble()
         controller.output()
         logging.info("Experiment finished")

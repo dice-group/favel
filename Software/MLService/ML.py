@@ -121,8 +121,7 @@ class ML:
             return autosklearn.classification.AutoSklearnClassifier(
                 metric=[autosklearn.metrics.roc_auc],
                 time_left_for_this_task=time,
-                ensemble_size=1,
-                ensemble_class=None
+                ensemble_size=1
             )
         else:
             X=train_data.drop(['subject', 'predicate', 'object', 'truth'], axis=1)
@@ -213,6 +212,8 @@ class ML:
 
             X=df.drop(['truth', 'subject', 'object'], axis=1)
             y=df.truth
+
+            X.fillna(0, inplace=True)
 
             X, normalizer = self.normalise_data(df=X, normalizer_name=normalizer_name, normalizer=None)
             if normalizer and self.output:
