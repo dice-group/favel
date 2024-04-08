@@ -21,6 +21,10 @@ To achieve this vision this project offers:
 # Installation
 ```
 git clone https://github.com/saschaTrippel/favel
+conda create -n "favel" python=3.7
+conda activate favel
+cd favel
+pip install -r requirements.txt
 cd favel/Software
 ```
 
