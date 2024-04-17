@@ -20,13 +20,20 @@ To achieve this vision this project offers:
 
 # Installation
 ```
-git clone https://github.com/saschaTrippel/favel
+git clone https://github.com/dice-group/favel.git
 conda create -n "favel" python=3.7
 conda activate favel
 cd favel
 pip install -r requirements.txt
 cd favel/Software
 ```
+or 
+```
+virtualenv -p python3.7 favel
+source favel/bin/activate
+pip install -r requirements.txt
+```
+
 
 # Usage
 * To conduct an experiment with the software execute the following steps:
