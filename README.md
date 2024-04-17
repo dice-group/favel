@@ -118,3 +118,7 @@ More informations about included datasets [here](Datasets)
 ## Fact Validation Approaches
 * <https://github.com/saschaTrippel/knowledgestream> offers multiple algorithms
 <!-- * <https://github.com/palaniappan1/COPAAL> offers COPAAL -->
+
+
+## Acknowledgements
+To be made available soon.
