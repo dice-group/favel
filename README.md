@@ -25,13 +25,15 @@ conda create -n "favel" python=3.7
 conda activate favel
 cd favel
 pip install -r requirements.txt
-cd favel/Software
+cd favel
 ```
 or 
 ```
+git clone https://github.com/dice-group/favel.git
 virtualenv -p python3.7 favel
 source favel/bin/activate
 pip install -r requirements.txt
+cd favel
 ```
 
 
@@ -54,7 +56,7 @@ pip install -r requirements.txt
 ## How to run
 
 ```
-python3 Favel.py [options]
+python3 Software/Favel.py [options]
 ```
 
 ### Options
