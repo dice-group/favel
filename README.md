@@ -110,10 +110,10 @@ Each experiment can take up to 3 hours depending upon no. of iterations in the i
 ## Datasets
 
 More informations about included datasets [here](Datasets)
-<!-- * [FactBench](https://github.com/saschaTrippel/FactBench-Dataset_2022)
-* [BPDP](https://github.com/saschaTrippel/BPDP-Dataset_2022)
-* [Favel](https://github.com/saschaTrippel/favel/tree/main/Favel_Dataset)
-* [Favel-hard](https://github.com/saschaTrippel/favel/tree/main/FinalDataset_Hard) -->
+<!-- * [FactBench](https://github.com/dice-group/favel/FactBench-Dataset_2022)
+* [BPDP](https://github.com/dice-group/favel/BPDP-Dataset_2022)
+* [Favel](https://github.com/dice-group/favel/favel/tree/main/Favel_Dataset)
+* [Favel-hard](https://github.com/dice-group/favel/favel/tree/main/FinalDataset_Hard) -->
 
 ## Fact Validation Approaches
 * <https://github.com/saschaTrippel/knowledgestream> offers multiple algorithms
