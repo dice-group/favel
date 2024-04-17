@@ -40,6 +40,9 @@ cd favel
 </details>
 
 # Usage
+
+<details><summary> </summary>
+
 * To conduct an experiment with the software execute the following steps:
     1. Create a directory inside the Evaluation directory.\
         The name of the directory is the name of the experiment \
@@ -55,6 +58,8 @@ cd favel
         Results will be saved to the [**favel/Evaluation/**](Evaluation) directory. \
         Example: ```python3 favel/Software/Favel.py -d favel/FinalDataset_Hard -e experiment42```
 
+</details>
+
 ## How to run
 
 ```
@@ -62,6 +67,9 @@ python3 Software/Favel.py [options]
 ```
 
 ### Options
+
+<details><summary> </summary>
+
 * ```-e EXPERIMENT, --experiment EXPERIMENT``` name of the experiment, corresponds with the name of the experiment folder in the ```Evaluation``` directory
 * ```-b EXPERIMENT, --batch EXPERIMENT``` name of the experiment, corresponds with the name of the experiment folder in the ```Evaluation``` directory.
 Experiment will be run in batch mode, meaning that an experiment will be executed with every subset of the specified set of fact validation approaches.
@@ -70,6 +78,9 @@ Experiment will be run in batch mode, meaning that an experiment will be execute
 If the flag is not set, only the overview is written to disk.
 * ```-c, --containers```Automatically Start/Stop containers that encapsulate the fact validation approaches.
 * ```-a, --automl``` To use the autoML system instead of the manual algorithm selection.
+
+</details>
+
 
 ## How to test
 
