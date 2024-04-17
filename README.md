@@ -19,6 +19,8 @@ To achieve this vision this project offers:
 - [**Software**](Software): Software for exploring the vision
 
 # Installation
+<details><summary> </summary>
+
 ```
 git clone https://github.com/dice-group/favel.git
 conda create -n "favel" python=3.7
@@ -35,7 +37,7 @@ source favel/bin/activate
 pip install -r requirements.txt
 cd favel
 ```
-
+</details>
 
 # Usage
 * To conduct an experiment with the software execute the following steps:
