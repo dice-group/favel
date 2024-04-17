@@ -79,15 +79,19 @@ python3 -m unittest
 
 ## How to run using pre-computed fact-validation approaches veracity scores
 <details><summary> </summary>
+    
 * First activate the environment using the command specified above. 
 * FAVEL_ALL_RESULTS.zip file contains the precomputed veracity scores from individual approaches. 
 * Unzip this file and run the following command to execute experiments.
 * You can change the input config file in the Evaluations/eval001 folder.
+
 ```
 unzip FAVEL_ALL_RESULTS.zip
 python3 Software/Favel.py -e eval001 -d FAVEL_ALL_RESULTS/FaVEL/input/ -w -a
 ```
+
 Each experiment can take up to 3 hours depending upon no. of iterations in the input config file.
+
 </details>
 
 # Additional Resources
