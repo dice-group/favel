@@ -119,5 +119,27 @@ More informations about included datasets [here](Datasets)
 <!-- * <https://github.com/palaniappan1/COPAAL> offers COPAAL -->
 
 
+
+## How to cite
+If you find our work useful in your research, please consider citing the paper:
+```
+@inproceedings{10.1007/978-3-031-77792-9_13,
+author = {Qudus, Umair and Pekarou, Franck Lionel Tatkeu and Silva, Ana Alexandra Morim da and R\"{o}der, Michael and Ngomo, Axel-Cyrille Ngonga},
+title = {FaVEL: Fact Validation Ensemble Learning},
+year = {2024},
+isbn = {978-3-031-77791-2},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-77792-9_13},
+doi = {10.1007/978-3-031-77792-9_13},
+abstract = {Validating assertions before adding them to a knowledge graph is an essential part of its creation and maintenance. Due to the sheer size of knowledge graphs, automatic fact-checking approaches have been developed. These approaches rely on reference knowledge to decide whether a given assertion is correct. Recent hybrid approaches achieve good results by including several knowledge sources. However, it is often impractical to provide a sheer quantity of textual knowledge or generate embedding models to leverage these hybrid approaches. We present FaVEL, an approach that uses algorithm selection and ensemble learning to amalgamate several existing fact-checking approaches that rely solely on a reference knowledge graph and, hence, use fewer resources than current hybrid approaches. For our evaluation, we create updated versions of two existing datasets and a new dataset dubbed FaVEL-DS. Our evaluation compares our approach to 15 fact-checking approaches—including the state-of-the-art approach HybridFC—on 3 datasets. Our results demonstrate that FaVEL outperforms all other approaches significantly by at least 0.04 in terms of the area under the ROC curve. Our source code, datasets, and evaluation results are open-source and can be found at .},
+booktitle = {Knowledge Engineering and Knowledge Management: 24th International Conference, EKAW 2024, Amsterdam, The Netherlands, November 26–28, 2024, Proceedings},
+pages = {209–225},
+numpages = {17},
+keywords = {fact checking, ensemble learning, transfer learning, knowledge management},
+location = {Amsterdam, The Netherlands}
+}
+```
+
 ## Acknowledgements
-To be made available soon.
+his  work  is  part  of  a  project  that  has  received  funding  from  the  Euro-pean Union’s Horizon 2020 research and innovation programme (Marie Skodowska-Curie, No.860801), the German Federal Ministry of Education and Research (BMBF) within the projectNEBULA (13N16364), the Ministry of Culture and Science of North Rhine-Westphalia (MKWNRW) within the project SAIL (NW21-059D).
