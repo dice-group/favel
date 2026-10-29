@@ -7,11 +7,8 @@ The dataset is a collection of [RDF](https://www.w3.org/TR/rdf-primer/) models, 
 ## 📥 Downloads and Links
 * **GitHub Repository (Train/Test splits & auxiliary files):** [dice-group/favel](https://github.com/dice-group/favel/tree/main/Datasets/Favel_Dataset)
 * **Combined Dataset (.ttl format):** [Zenodo Record](https://zenodo.org/records/15390036)
-* **Student Evaluation Set:** A specialized test file *without* ground truth labels is provided specifically for educational purposes and student evaluation (e.g., for the Fact Checking over Knowledge Graphs (FOKG) lecture).
+* **Student Evaluation Set:** A specialized test file *without* ground truth labels is provided specifically for educational purposes and student evaluation.
 
-## 📖 Citation
-If you use this dataset in your research or lectures, please cite the original paper:
-> [FAVEL: Fact Validation over Knowledge Graphs](https://dl.acm.org/doi/10.1007/978-3-031-77792-9_13)
 
 ---
 
@@ -59,7 +56,9 @@ We generated a total of 550 incorrect facts (385 in the train set and 165 in the
 
 
 ## 📖 Citation
-If you use this dataset in your research or lectures, please cite the following paper:
+
+If you use this dataset in your research or lectures, please cite the original paper:
+> [FAVEL: Fact Validation over Knowledge Graphs](https://dl.acm.org/doi/10.1007/978-3-031-77792-9_13)
 
 **Text Format:**
 Qudus, U., Tatkeu Pekarou, F. L., Morim da Silva, A. A., Röder, M., & Ngonga Ngomo, A.-C. (2024). FaVEL: Fact Validation Ensemble Learning. In *Knowledge Engineering and Knowledge Management. EKAW 2024*. Lecture Notes in Computer Science, Springer. https://doi.org/10.1007/978-3-031-77792-9_13
