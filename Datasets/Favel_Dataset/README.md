@@ -56,3 +56,28 @@ The negative examples are then stored as `(s, p, o')`, such that `(s, p, o')` do
 * **Generated Negative Fact:** `<http://dbpedia.org/resource/Dead_Snow> dbo:director <http://dbpedia.org/resource/Ane_Dahl_Torp>.` → `(s, p, o')`
 
 We generated a total of 550 incorrect facts (385 in the train set and 165 in the test set).
+
+
+## 📖 Citation
+If you use this dataset in your research or lectures, please cite the following paper:
+
+**Text Format:**
+Qudus, U., Tatkeu Pekarou, F. L., Morim da Silva, A. A., Röder, M., & Ngonga Ngomo, A.-C. (2024). FaVEL: Fact Validation Ensemble Learning. In *Knowledge Engineering and Knowledge Management. EKAW 2024*. Lecture Notes in Computer Science, Springer. https://doi.org/10.1007/978-3-031-77792-9_13
+
+**BibTeX:**
+```bibtex
+@inproceedings{qudus2024favel,
+  author       = {Umair Qudus and
+                  Franck Lionel Tatkeu Pekarou and
+                  Ana Alexandra Morim da Silva and
+                  Michael R{\"{o}}der and
+                  Axel{-}Cyrille Ngonga Ngomo},
+  title        = {{FaVEL}: Fact Validation Ensemble Learning},
+  booktitle    = {Knowledge Engineering and Knowledge Management - 24th International Conference, {EKAW} 2024, Amsterdam, The Netherlands, November 26--28, 2024, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  publisher    = {Springer},
+  pages        = {209--225},
+  year         = {2024},
+  doi          = {10.1007/978-3-031-77792-9_13},
+  url          = {[https://doi.org/10.1007/978-3-031-77792-9_13](https://doi.org/10.1007/978-3-031-77792-9_13)}
+}
