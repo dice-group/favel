@@ -120,8 +120,13 @@ More informations about included datasets [here](Datasets)
 
 
 
-## How to cite
-If you find our work useful in your research, please consider citing the paper:
+## 📖 Citation
+If you use this dataset in your research or lectures, please cite the following paper:
+
+**Text Format:**
+Qudus, U., Tatkeu Pekarou, F. L., Morim da Silva, A. A., Röder, M., & Ngonga Ngomo, A.-C. (2024). FaVEL: Fact Validation Ensemble Learning. In *Knowledge Engineering and Knowledge Management. EKAW 2024*. Lecture Notes in Computer Science, Springer. https://doi.org/10.1007/978-3-031-77792-9_13
+
+
 ```
 @inproceedings{10.1007/978-3-031-77792-9_13,
 author = {Qudus, Umair and Pekarou, Franck Lionel Tatkeu and Silva, Ana Alexandra Morim da and R\"{o}der, Michael and Ngomo, Axel-Cyrille Ngonga},
@@ -140,6 +145,8 @@ keywords = {fact checking, ensemble learning, transfer learning, knowledge manag
 location = {Amsterdam, The Netherlands}
 }
 ```
+
+
 
 ## Acknowledgements
 his  work  is  part  of  a  project  that  has  received  funding  from  the  Euro-pean Union’s Horizon 2020 research and innovation programme (Marie Skodowska-Curie, No.860801), the German Federal Ministry of Education and Research (BMBF) within the projectNEBULA (13N16364), the Ministry of Culture and Science of North Rhine-Westphalia (MKWNRW) within the project SAIL (NW21-059D).
